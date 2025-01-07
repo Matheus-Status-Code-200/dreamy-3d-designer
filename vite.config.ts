@@ -6,4 +6,7 @@ export default defineConfig({
   base: "/threejs-react-TDesigner/",
   plugins: [react()],
   assetsInclude: ['**/*.glb'],
+  server: {
+    port: 8080
+  }
 })
